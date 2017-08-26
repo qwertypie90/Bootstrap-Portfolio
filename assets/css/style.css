@@ -1,0 +1,149 @@
+body {
+  width: 960px;
+}
+
+
+.topnav {
+    z-index: 1;
+    background-color: #333;
+    font-family: 'Headland One', serif;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.topnav a {
+    float: right;
+    vertical-align: top;
+    display: block;
+    color: #F0FFF0;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #919191;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a {
+text-decoration:none;
+}
+
+.Myname {
+  position: absolute;
+  float: left;
+  z-index: 2;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 30px;
+  color: #F0FFF0;
+  padding: 20px 12px 23px 13px;
+  margin-left:50px;
+  top: 0px;
+  background-color: #919191;
+}
+
+img {
+float: left;
+margin: 16px;
+margin-top: 0px;
+margin-left: 3px;
+
+}
+
+#bio_text {
+  position: absolute;
+  float: left;
+  font-family: 'Headland One', serif;
+  margin-left:70px;
+  width: 525px;
+  padding-left:12px;
+  padding-right:12px;
+  padding-bottom: 50px;
+  text-align: left;
+  background: #F0FFF0;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#fixed {
+float: right;
+text-align: center;
+font-size: 16px;
+background: #F0FFF0;
+width:270px;
+padding: 20px;
+border-style: solid;
+border-width: 4px;
+}
+
+
+hr.style7 {
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+  margin-bottom:15px;
+}
+
+h2 {
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-size: 30px;
+margin: 20px;
+font-weight: bold;
+}
+
+h3 {
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-size: 21px;
+margin: 5px;
+font-weight: bold;  
+}
+
+h1 {
+  padding: 15px 0;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #333;
+}
+
+.contact {
+  margin-left: 20px;
+}
+#contact {
+  position: absolute;
+  float: left;
+  font-family: 'Headland One', serif;
+  margin-left:70px;
+  width: 525px;
+  padding-left:12px;
+  padding-right:12px;
+  padding-bottom: 50px;
+  text-align: left;
+  background: #F0FFF0;
+  border-style: solid;
+  border-width: 4px;
+}
+
+
+ footer {
+  position: absolute;
+  font-family: 'Headland One', serif;
+  padding: 15px 0;
+  font-size: 28px;
+  width:960px;
+  color: #F0FFF0;
+  text-align: center;
+  background: #333;
+  bottom:0;
+  margin-top:10px;
+  margin-bottom: 10px;
+ }
